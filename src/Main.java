@@ -9,9 +9,13 @@ public class Main {
     public static void main(String[] args) {
     User user = User.getInstance();
     user.stampaInfo();
-    user.setNome("Mario");
-    user.setEta(18);
+    user.setNome("Luigia");
+    user.setEta(11);
     user.stampaInfo();
+    User user1 = User.getInstance();
+    user1.setNome("Mario");
+    user1.setEta(18);
+    user1.stampaInfo();
 
     }
 }
